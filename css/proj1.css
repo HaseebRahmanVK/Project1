@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+.first{
+  text-align: center;
+  min-height: 0;
+}
+header{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/travel1.png);
+height: 100vh;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px transparent #fff;
+  transition: 0.5s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color:#000;
+}
+
+.logo{
+  display: inline;
+}
+
+.logo img{
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+  opacity: 0.45;
+margin-left: 30px;
+}
+
+.abc{
+  max-width: 1400px;
+  margin: auto;
+}
+
+.third{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.third h1{
+  color:5A5958;
+  font-size:80px;
+  text-align: center;
+}
